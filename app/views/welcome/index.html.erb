@@ -13,7 +13,9 @@
 <%image_tag "photo3.jpg", class: "images"%>
 <%image_tag "photo4.jpg", class: "images"%>
 
+<ul>
 <% @images.each do |image| %>
-    <li><%= image_tag image, class: "images" %>
+    <li><%= image_tag image, class: "image-responsive" %>
     </li>
     <% end %>
+    </ul>
